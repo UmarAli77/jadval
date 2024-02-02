@@ -1,0 +1,41 @@
+.container {
+  margin: 0px auto;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: grey;
+  color: white;
+}
+
+table, th, td {
+  border-collapse: collapse;
+}
+
+tbody tr {
+  border-bottom: 1px solid red;
+}
+
+table, th {
+  border: none;
+}
+
+table {
+  border-spacing: 20px;
+}
+
+td, tr {
+  padding: 15px;
+}
+
+tbody td:nth-child(2) {
+  width: 150px;
+}
+
+tbody td:nth-child(3) {
+  width: 150px;
+}
+
+th {
+  padding: 10px;
+  background-color: #aaa;
+}/*# sourceMappingURL=style.css.map */
